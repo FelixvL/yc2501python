@@ -14,3 +14,8 @@ def uniek():
 def wintersport():
     return render_template("wintersport.html")
 
+
+
+@app.route("/owes")
+def owes():
+    return "<p>Wij zijn het beste duo 100%</p>"
