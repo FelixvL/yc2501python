@@ -1,4 +1,5 @@
 from flask import Flask
+from zakaenjelle import huppakee
 
 app = Flask(__name__)
 
@@ -9,3 +10,7 @@ def hello_world():
 @app.route("/uniek")
 def uniek():
     return "<p>Hello, Allemaal!</p>"
+
+@app.route("/zakaenjelle")
+def zakaenjelle():
+    return huppakee()
