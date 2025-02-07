@@ -9,3 +9,7 @@ def hello_world():
 @app.route("/uniek")
 def uniek():
     return "<p>Hello, Allemaal!</p>"
+
+@app.route("/owes")
+def owes():
+    return "<p>Wij zijn het beste duo 100%</p>"
